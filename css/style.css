@@ -1,0 +1,25 @@
+html{
+    background-color: maroon;
+}
+.header-top{
+    background-color: rgb(81, 138, 138)
+}
+.container-color{
+    background-color: orangered;font-weight: 600;color: aliceblue;text-align: center;
+}
+.m-right{
+    border-right: 1px solid white;
+    color: white;
+}
+.m-end{
+    color: white;
+}
+.underline{
+width: 100px;height: 2px;background-color: orangered;
+}
+.underline2{
+    width: 100px;height: 2px;background-color: deepskyblue;
+    }
+.bg-light-gray{
+    background-color: rgba(111, 111, 111, 0.09);
+}
