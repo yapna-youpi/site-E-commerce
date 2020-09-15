@@ -20,6 +20,85 @@ width: 100px;height: 2px;background-color: orangered;
 .underline2{
     width: 100px;height: 2px;background-color: deepskyblue;
     }
+.underline-green{
+    width: 100px;height: 2px;background-color: lawngreen;
+    }
+.underline-blue{
+    width: 100px;height: 2px;background-color: royalblue;margin-left: 7rem;
+}
 .bg-light-gray{
     background-color: rgba(111, 111, 111, 0.09);
+}
+.card:hover
+{
+    box-shadow: 2px 4px 9px black;
+}
+.media img{
+    max-width: 120px;height: auto;
+}
+.media {
+    margin-left: 1.5rem;
+}
+.col-sm-4{
+    text-align: center;
+}
+.img-doc{
+    width: ;height: auto;border-radius: 50%;
+}
+.fot-end{
+    background-color: rgba(0, 171, 251, 0.993);color: white;height: 2px;
+}
+footer{
+    text-align: center;
+}
+footer .row  h5{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.cad img{
+    z-index:2;width: 45px;height: 45px;
+}
+.row{
+    display: flex;
+}
+.cad{
+    width: 60px;height: 60px;background-color: rgba(0, 0, 0, 0.4);margin: 25px;
+    display: flex;justify-content: center;align-items: center;border-radius: 50%;
+    overflow: hidden;flex-wrap: wrap;position: relative;
+}
+.col1{
+    width: 60px;height: 60px;background-color: royalblue;display: block;
+    position: absolute;top: -60px;z-index:1;transition: 0.35s;
+}
+.col2{
+    width: 60px;height: 60px;background-color: deepskyblue;display: block;
+    position: absolute;top: -60px;z-index:1;transition: 0.35s;
+}
+.col3{
+    width: 60px;height: 60px;background-color: rgba(79, 235, 6, 0.89);display: block;
+    position: absolute;top: -60px;z-index:1;transition: 0.35s;
+}
+.col4{
+    width: 60px;height: 60px;background-color: deeppink;display: block;
+    position: absolute;top: -60px;z-index:1;transition: 0.35s;
+}
+.cad:hover  .col1{
+   top: 0;
+}
+.cad:hover  .col2{
+    top: 0;
+}
+.cad:hover  .col3{
+   top: 0;
+}
+.cad:hover  .col4{
+    top: 0;
 }
